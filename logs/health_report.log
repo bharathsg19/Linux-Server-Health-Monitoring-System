@@ -1,0 +1,96 @@
+================================
+Linux Server Health Report
+Sun Oct  4 08:12:36 PM IST 2026
+----- Uptime -----
+ 20:12:36 up 12 min,  1 user,  load average: 0.23, 0.12, 0.06
+----- Memory Usage -----
+               total        used        free      shared  buff/cache   available
+Mem:           7.3Gi       1.1Gi       4.2Gi        26Mi       2.2Gi       6.1Gi
+Swap:          4.0Gi          0B       4.0Gi
+----- Disk Usage -----
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.5G  2.1M  1.5G   1% /run
+/dev/sda2        49G   12G   36G  25% /
+tmpfs           3.7G  8.0K  3.7G   1% /dev/shm
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           3.7G  8.0K  3.7G   1% /tmp
+tmpfs           743M  104K  743M   1% /run/user/1000
+----- CPU Information -----
+top - 20:12:37 up 12 min,  1 user,  load average: 0.23, 0.12, 0.06
+Tasks: 232 total,   1 running, 231 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  2.9 sy,  1.4 ni, 95.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7424.1 total,   4317.0 free,   1175.8 used,   2206.4 buff/cache     
+MiB Swap:   4096.0 total,   4096.0 free,      0.0 used.   6248.2 avail Mem 
+----- Failed Services -----
+● vboxadd.service loaded failed failed vboxadd.service
+----- Recent System Errors -----
+Oct 04 19:58:18 bharath-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Oct 04 19:58:18 bharath-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Oct 04 19:58:18 bharath-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Oct 04 19:58:33 bharath-VirtualBox systemd[1]: Failed to start vboxadd.service.
+Oct 04 20:00:45 bharath-VirtualBox gdm-password][3274]: gkr-pam: unable to locate daemon control file
+================================
+Linux Server Health Report
+Sun Oct  4 09:20:48 PM IST 2026
+----- Uptime -----
+ 21:20:48 up  1:20,  1 user,  load average: 0.24, 0.10, 0.03
+----- Memory Usage -----
+               total        used        free      shared  buff/cache   available
+Mem:           7.3Gi       1.4Gi       3.9Gi        37Mi       2.2Gi       5.8Gi
+Swap:          4.0Gi          0B       4.0Gi
+----- Disk Usage -----
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.5G  2.4M  1.5G   1% /run
+/dev/sda2        49G   12G   35G  25% /
+tmpfs           3.7G  8.0K  3.7G   1% /dev/shm
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           3.7G  8.0K  3.7G   1% /tmp
+tmpfs           743M  108K  743M   1% /run/user/1000
+----- CPU Information -----
+top - 21:20:48 up  1:20,  1 user,  load average: 0.24, 0.10, 0.03
+Tasks: 245 total,   1 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  1.8 sy,  1.8 ni, 94.5 id,  0.0 wa,  0.0 hi,  1.8 si,  0.0 st 
+MiB Mem :   7424.1 total,   3948.7 free,   1490.0 used,   2272.2 buff/cache     
+MiB Swap:   4096.0 total,   4096.0 free,      0.0 used.   5934.1 avail Mem 
+----- Failed Services -----
+● vboxadd.service loaded failed failed vboxadd.service
+----- Recent System Errors -----
+Oct 04 19:58:18 bharath-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Oct 04 19:58:33 bharath-VirtualBox systemd[1]: Failed to start vboxadd.service.
+Oct 04 20:00:45 bharath-VirtualBox gdm-password][3274]: gkr-pam: unable to locate daemon control file
+Oct 04 21:10:05 bharath-VirtualBox kernel: watchdog: BUG: soft lockup - CPU#2 stuck for 34s! [swapper/2:0]
+Oct 04 21:10:05 bharath-VirtualBox rsyslogd[1220]: get tty for session '3' failed with [61]:No data available  [v8.2512.0]
+================================
+Linux Server Health Report
+Sun Oct  4 10:00:02 PM IST 2026
+----- Uptime -----
+ 22:00:02 up  1:59,  1 user,  load average: 0.02, 0.03, 0.00
+----- Memory Usage -----
+               total        used        free      shared  buff/cache   available
+Mem:           7.3Gi       1.5Gi       3.9Gi        30Mi       2.2Gi       5.8Gi
+Swap:          4.0Gi          0B       4.0Gi
+----- Disk Usage -----
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.5G  2.4M  1.5G   1% /run
+/dev/sda2        49G   12G   35G  25% /
+tmpfs           3.7G  8.0K  3.7G   1% /dev/shm
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           3.7G  8.0K  3.7G   1% /tmp
+tmpfs           743M  112K  743M   1% /run/user/1000
+----- CPU Information -----
+top - 22:00:02 up  1:59,  1 user,  load average: 0.02, 0.03, 0.00
+Tasks: 243 total,   1 running, 242 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.4 us,  2.8 sy,  2.8 ni, 93.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7424.1 total,   3942.3 free,   1495.2 used,   2266.9 buff/cache     
+MiB Swap:   4096.0 total,   4096.0 free,      0.0 used.   5928.9 avail Mem 
+----- Failed Services -----
+● vboxadd.service loaded failed failed vboxadd.service
+----- Recent System Errors -----
+Oct 04 19:58:18 bharath-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Oct 04 19:58:33 bharath-VirtualBox systemd[1]: Failed to start vboxadd.service.
+Oct 04 20:00:45 bharath-VirtualBox gdm-password][3274]: gkr-pam: unable to locate daemon control file
+Oct 04 21:10:05 bharath-VirtualBox kernel: watchdog: BUG: soft lockup - CPU#2 stuck for 34s! [swapper/2:0]
+Oct 04 21:10:05 bharath-VirtualBox rsyslogd[1220]: get tty for session '3' failed with [61]:No data available  [v8.2512.0]
