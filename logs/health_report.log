@@ -94,3 +94,36 @@ Oct 04 19:58:33 bharath-VirtualBox systemd[1]: Failed to start vboxadd.service.
 Oct 04 20:00:45 bharath-VirtualBox gdm-password][3274]: gkr-pam: unable to locate daemon control file
 Oct 04 21:10:05 bharath-VirtualBox kernel: watchdog: BUG: soft lockup - CPU#2 stuck for 34s! [swapper/2:0]
 Oct 04 21:10:05 bharath-VirtualBox rsyslogd[1220]: get tty for session '3' failed with [61]:No data available  [v8.2512.0]
+================================
+Linux Server Health Report
+Mon Oct  5 05:00:01 AM IST 2026
+----- Uptime -----
+ 05:00:01 up  8:59,  1 user,  load average: 0.26, 0.07, 0.02
+----- Memory Usage -----
+               total        used        free      shared  buff/cache   available
+Mem:           7.3Gi       1.5Gi       3.7Gi        37Mi       2.4Gi       5.8Gi
+Swap:          4.0Gi          0B       4.0Gi
+----- Disk Usage -----
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.5G  2.4M  1.5G   1% /run
+/dev/sda2        49G   12G   35G  25% /
+tmpfs           3.7G  8.0K  3.7G   1% /dev/shm
+tmpfs           3.7G  8.0K  3.7G   1% /tmp
+tmpfs           743M  116K  743M   1% /run/user/1000
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+----- CPU Information -----
+top - 05:00:01 up  8:59,  1 user,  load average: 0.26, 0.07, 0.02
+Tasks: 252 total,   1 running, 251 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.3 us,  7.0 sy,  7.0 ni, 81.4 id,  0.0 wa,  0.0 hi,  2.3 si,  0.0 st 
+MiB Mem :   7424.1 total,   3771.3 free,   1533.9 used,   2416.4 buff/cache     
+MiB Swap:   4096.0 total,   4096.0 free,      0.0 used.   5890.2 avail Mem 
+----- Failed Services -----
+● apport-autoreport.service loaded failed failed Process error reports when automatic reporting is enabled
+● vboxadd.service           loaded failed failed vboxadd.service
+----- Recent System Errors -----
+Oct 05 04:46:07 bharath-VirtualBox chronyd[1283]: Could not connect to 185.125.190.122:4460 (1.ntp.ubuntu.com) : Connection refused
+Oct 05 04:46:08 bharath-VirtualBox chronyd[1283]: Could not connect to 185.125.190.121:4460 (ntp-bootstrap.ubuntu.com) : Connection refused
+Oct 05 04:47:03 bharath-VirtualBox chronyd[1283]: Could not connect to 185.125.190.123:4460 (2.ntp.ubuntu.com) : Connection refused
+Oct 05 04:47:07 bharath-VirtualBox chronyd[1283]: Could not connect to 91.189.91.112:4460 (3.ntp.ubuntu.com) : Connection refused
+Oct 05 04:47:12 bharath-VirtualBox chronyd[1283]: Could not connect to 91.189.91.113:4460 (4.ntp.ubuntu.com) : Connection refused
