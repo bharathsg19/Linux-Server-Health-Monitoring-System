@@ -127,3 +127,37 @@ Oct 05 04:46:08 bharath-VirtualBox chronyd[1283]: Could not connect to 185.125.1
 Oct 05 04:47:03 bharath-VirtualBox chronyd[1283]: Could not connect to 185.125.190.123:4460 (2.ntp.ubuntu.com) : Connection refused
 Oct 05 04:47:07 bharath-VirtualBox chronyd[1283]: Could not connect to 91.189.91.112:4460 (3.ntp.ubuntu.com) : Connection refused
 Oct 05 04:47:12 bharath-VirtualBox chronyd[1283]: Could not connect to 91.189.91.113:4460 (4.ntp.ubuntu.com) : Connection refused
+================================
+Linux Server Health Report
+Wed Oct  7 01:05:01 PM IST 2026
+----- Uptime -----
+ 13:05:01 up  1:12,  1 user,  load average: 0.00, 0.04, 0.02
+----- Memory Usage -----
+               total        used        free      shared  buff/cache   available
+Mem:           7.3Gi       1.5Gi       2.4Gi        36Mi       3.7Gi       5.7Gi
+Swap:          4.0Gi          0B       4.0Gi
+----- Disk Usage -----
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.5G  6.1M  1.5G   1% /run
+/dev/sda2        49G   12G   35G  26% /
+tmpfs           3.7G   12K  3.7G   1% /dev/shm
+tmpfs           3.7G   16K  3.7G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           743M   68K  743M   1% /run/user/60578
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           743M  108K  743M   1% /run/user/1000
+----- CPU Information -----
+top - 13:05:01 up  1:12,  1 user,  load average: 0.00, 0.04, 0.02
+Tasks: 280 total,   1 running, 279 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.3 us,  2.3 sy,  0.0 ni, 95.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7424.1 total,   2463.1 free,   1542.6 used,   3747.8 buff/cache     
+MiB Swap:   4096.0 total,   4096.0 free,      0.0 used.   5881.5 avail Mem 
+----- Failed Services -----
+● apport-autoreport.service loaded failed failed Process error reports when automatic reporting is enabled
+● vboxadd.service           loaded failed failed vboxadd.service
+----- Recent System Errors -----
+Oct 07 12:01:30 bharath-VirtualBox systemd[2803]: Failed to start snap.firmware-updater.firmware-notifier.service - Service for snap application firmware-updater.firmware-notifier.
+Oct 07 12:01:57 bharath-VirtualBox systemd[1]: Failed to start apport-autoreport.service - Process error reports when automatic reporting is enabled.
+Oct 07 12:31:10 bharath-VirtualBox gdm-password][8636]: gkr-pam: unable to locate daemon control file
+Oct 07 12:53:04 bharath-VirtualBox systemd[1]: Failed to start apport-autoreport.service - Process error reports when automatic reporting is enabled.
+Oct 07 12:58:22 bharath-VirtualBox systemd[1]: Failed to start apport-autoreport.service - Process error reports when automatic reporting is enabled.
