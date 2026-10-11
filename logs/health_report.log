@@ -161,3 +161,37 @@ Oct 07 12:01:57 bharath-VirtualBox systemd[1]: Failed to start apport-autoreport
 Oct 07 12:31:10 bharath-VirtualBox gdm-password][8636]: gkr-pam: unable to locate daemon control file
 Oct 07 12:53:04 bharath-VirtualBox systemd[1]: Failed to start apport-autoreport.service - Process error reports when automatic reporting is enabled.
 Oct 07 12:58:22 bharath-VirtualBox systemd[1]: Failed to start apport-autoreport.service - Process error reports when automatic reporting is enabled.
+================================
+Linux Server Health Report
+Sun Oct 11 08:40:01 AM IST 2026
+----- Uptime -----
+ 08:40:01 up 54 min,  1 user,  load average: 0.00, 0.21, 0.25
+----- Memory Usage -----
+               total        used        free      shared  buff/cache   available
+Mem:           7.3Gi       1.4Gi       2.8Gi        40Mi       3.3Gi       5.9Gi
+Swap:          4.0Gi          0B       4.0Gi
+----- Disk Usage -----
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.5G  2.1M  1.5G   1% /run
+/dev/sda2        49G   13G   34G  28% /
+tmpfs           3.7G  8.0K  3.7G   1% /dev/shm
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           3.7G  8.0K  3.7G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+Ubuntu          932G   13G  920G   2% /media/sf_Ubuntu
+tmpfs           743M  108K  743M   1% /run/user/1000
+----- CPU Information -----
+top - 08:40:02 up 54 min,  1 user,  load average: 0.00, 0.21, 0.25
+Tasks: 247 total,   1 running, 246 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 98.4 id,  1.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7424.1 total,   2903.3 free,   1420.8 used,   3405.1 buff/cache     
+MiB Swap:   4096.0 total,   4096.0 free,      0.0 used.   6003.3 avail Mem 
+----- Failed Services -----
+● apport-autoreport.service loaded failed failed Process error reports when automatic reporting is enabled
+● vboxadd.service           loaded failed failed vboxadd.service
+----- Recent System Errors -----
+Oct 11 07:46:08 bharath-VirtualBox systemd[1]: Failed to start vboxadd.service.
+Oct 11 07:46:09 bharath-VirtualBox chronyd[1277]: Could not connect to [2620:2d:4002:1::3123]:4460 (4.ntp.ubuntu.com) : Connection refused
+Oct 11 07:46:30 bharath-VirtualBox systemd[1]: Failed to start apport-autoreport.service - Process error reports when automatic reporting is enabled.
+Oct 11 07:48:32 bharath-VirtualBox gdm-password][3440]: gkr-pam: unable to locate daemon control file
+Oct 11 07:51:31 bharath-VirtualBox systemd[1]: Failed to start apport-autoreport.service - Process error reports when automatic reporting is enabled.
